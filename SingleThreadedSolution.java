@@ -17,7 +17,7 @@ final static long num = 1_000_000_000;
 	}
 
 	public static void SingleThread(){
-		Thread thread = new Thread (() -> {
+		Runnable Task =(() -> {
 		int count = 0;
 		for (int i = 0; i < num; i++){
 			count++;

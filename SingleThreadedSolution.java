@@ -16,5 +16,10 @@ public class SingleThreadedSolution{
 		System.out.println(elapsedTime);
 	}
 
-
 }
+
+/*
+We created a new branch. Since we didnt merge multithread to main, this branch only shows what's in
+the main branch. We created a single thread that counts to one billion, then returned the time. In multithread, we then created a method using
+multiple threads, using executorservice and callable. Then, we returned this time. We used nanotime to track it.
+*/
